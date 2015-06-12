@@ -1,0 +1,26 @@
+{% block title %}List of Patients <br/>{% endblock %}
+{% block content %}
+
+{% if patients|length == 0 %}
+You have no patients in the database
+{% else %}
+<ul>
+{% for patient in patients %}
+<li><a href="/patients/edit/{{ patient.id }}">{{patient}} </a></li> 
+<ol>
+{% for data in patientData %}
+<!--{%  if data.patient.pk = patient.pk  %}-->
+
+
+<li>{{data}}</li>
+<!---{% endif %}--->
+
+{% endfor %}</ol>
+{% endfor %}
+</ul>
+
+
+{% endif %}
+<a href="/patients/add"><button>Add Patient</button></a>
+</form>
+{% endblock %}

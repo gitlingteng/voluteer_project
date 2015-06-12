@@ -1,0 +1,1035 @@
+- model: patients.Diagnosis
+  pk: 1
+  fields:
+    name: Glioma (low grade)
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 2
+  fields:
+    name: Astrocytoma, low grade
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 3
+  fields:
+    name: Pilocytic astrocytoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 4
+  fields:
+    name: Juvenile pilocytic astrocytoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 5
+  fields:
+    name: Astrocytoma, high grade
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 6
+  fields:
+    name: Glioblastoma multiforme
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 7
+  fields:
+    name: Astrocytoma, anaplastic
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 8
+  fields:
+    name: Glioma, high grade
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 9
+  fields:
+    name: Glioma, diffuse instrinsic
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 10
+  fields:
+    name: Diffuse intrinsic pontine glioma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 11
+  fields:
+    name: DIPG
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 12
+  fields:
+    name: Ependymoma (non-spinal cord)
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 13
+  fields:
+    name: Ependymoma (spinal cord)
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 14
+  fields:
+    name: Medulloblastoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 15
+  fields:
+    name: CNS PNET
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 16
+  fields:
+    name: CNS Peripheral neuroendocrine tumor
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 17
+  fields:
+    name: ATRT
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 18
+  fields:
+    name: Atypical rhabdoid tumor
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 19
+  fields:
+    name: Choroid plexus papilloma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 20
+  fields:
+    name: Choroid plexus carcinoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 21
+  fields:
+    name: Optic pathway glioma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 22
+  fields:
+    name: Craniopharyngioma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 23
+  fields:
+    name: Pituitary adenoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 24
+  fields:
+    name: Pineal tumor
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 25
+  fields:
+    name: Meningioma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 26
+  fields:
+    name: Spinal cord tumor - high grade
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 27
+  fields:
+    name: Spinal cord tumor - low grade
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 28
+  fields:
+    name: Spinal cord tumor - ependymoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 29
+  fields:
+    name: Germ cell tumor
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 30
+  fields:
+    name: Germinoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 31
+  fields:
+    name: Embryonal carcinoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 32
+  fields:
+    name: Yolk sac tumor (endodermal sinus tumor)
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 33
+  fields:
+    name: Choriocarcinoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 34
+  fields:
+    name: Teratoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 35
+  fields:
+    name: Mixed germ cell tumors
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 36
+  fields:
+    name: Retinoblastoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 37
+  fields:
+    name: Wilms tumor
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 38
+  fields:
+    name: Clear cell sarcoma of the kidney
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 39
+  fields:
+    name: Renal cell carcinoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 40
+  fields:
+    name: Rhabdoid tumor
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 41
+  fields:
+    name: Mesoblastic nephroma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 42
+  fields:
+    name: Neuroblastoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 43
+  fields:
+    name: Ganglionauroblastoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 44
+  fields:
+    name: Ganglioneuroma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 45
+  fields:
+    name: Pheochromocytoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 46
+  fields:
+    name: Paraganglioma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 47
+  fields:
+    name: Bone tumors
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 48
+  fields:
+    name: Osteogenic sarcoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 49
+  fields:
+    name: Osteosarcoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 50
+  fields:
+    name: Extraskeletal osteosarcoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 51
+  fields:
+    name: Ewing sarcoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 52
+  fields:
+    name: Rhabdomyosarcoma (alveolar)
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 53
+  fields:
+    name: Rhabdomyosarcoma (embryonal)
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 54
+  fields:
+    name: Rhabdomyosarcoma (botryoides)
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 55
+  fields:
+    name: Synovial sarcoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 56
+  fields:
+    name: Epithelioid hemangioendothelioma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 57
+  fields:
+    name: Epithelioid sarcoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 58
+  fields:
+    name: Alveolar soft part sarcoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 59
+  fields:
+    name: Clear cell sarcoma of soft tissue
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 60
+  fields:
+    name: PNET / Extraskeletal Ewing
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 61
+  fields:
+    name: Peripheral neuroendocrine tumor / Extrasekeltal Ewing
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 62
+  fields:
+    name: Desmoplastic small round cell tumor
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 63
+  fields:
+    name: Kaposiform hemangioendothelioma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 64
+  fields:
+    name: Giant cell malignant fibrous histiocytoma / Undifferentiated pleomorphic sarcoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 65
+  fields:
+    name: Nodular fasciitis
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 66
+  fields:
+    name: Neurofibroma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 67
+  fields:
+    name: MPNST
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 68
+  fields:
+    name: Malignant peripheral nerve sheath tumor
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 69
+  fields:
+    name: Hepatoblastoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 70
+  fields:
+    name: Hepatocellular carcinoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 71
+  fields:
+    name: Pleuropulmonary blastoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 72
+  fields:
+    name: Myofibroblastic tumor
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 73
+  fields:
+    name: Hemangioma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 74
+  fields:
+    name: Arteriovenous malformation
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 75
+  fields:
+    name: Thyroid carcinoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 76
+  fields:
+    name: Papillary carcinoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 77
+  fields:
+    name: Medullary carcinoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 79
+  fields:
+    name: Dysgerminoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 80
+  fields:
+    name: Seminoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 84
+  fields:
+    name: Gonadoblastoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 85
+  fields:
+    name: Endodermal sinus tumor (yolk sac tumor)
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 86
+  fields:
+    name: Melanoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 87
+  fields:
+    name: Basal cell carcinoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 88
+  fields:
+    name: Hodgkin lymphoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 89
+  fields:
+    name: Nodular sclerosing Hodgkin lymphoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 90
+  fields:
+    name: Mixed cellularity Hodgkin lymphoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 91
+  fields:
+    name: Modeular lymphocyte predominance Hodgkin lymphoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 92
+  fields:
+    name: Burkitt lymphoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 93
+  fields:
+    name: Lymphoblastic lymphoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 94
+  fields:
+    name: Primary mediastinal lymphoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 95
+  fields:
+    name: Peripheral T-cell lymphoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 96
+  fields:
+    name: Lymphoma of bone
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 97
+  fields:
+    name: CNS Lymphoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 98
+  fields:
+    name: PTLD
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 99
+  fields:
+    name: Post-transplant lymphoproliferative disease
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 100
+  fields:
+    name: ALL
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 101
+  fields:
+    name: Acute lymphoblastic leukemia
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 102
+  fields:
+    name: MLL (biphenotypic leukemia)
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 103
+  fields:
+    name: Mixed lineage leukemia (biphenotypic leukemia)
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 104
+  fields:
+    name: ALL Ph+
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 105
+  fields:
+    name: Philadelphia chromosome ALL
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 106
+  fields:
+    name: AML
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 107
+  fields:
+    name: Acute myelogenous leukemia
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 108
+  fields:
+    name: APML
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 109
+  fields:
+    name: Acute promyelocytic leukemia
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 110
+  fields:
+    name: CLL
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 111
+  fields:
+    name: Chronic lymphoblastic leukemia
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 112
+  fields:
+    name: CML
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 113
+  fields:
+    name: Chronic myeloid leukemia
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 114
+  fields:
+    name: JMML
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 115
+  fields:
+    name: Juvenile myelonomocytic leukemia
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 116
+  fields:
+    name: Myelodysplastic syndrome
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 117
+  fields:
+    name: Therapy related acute leukemia
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 118
+  fields:
+    name: Therapy related ALL
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 119
+  fields:
+    name: Therapy related AML
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 120
+  fields:
+    name: HLH
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 121
+  fields:
+    name: Hemophagocytic lymphohistiocytosis
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 122
+  fields:
+    name: Congenital HLH
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 123
+  fields:
+    name: Congenital hemaphagocytic lymphohistiocytosis
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 124
+  fields:
+    name: Familial HLH
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 125
+  fields:
+    name: Familial hemaphagocytic lymphohistiocytosis
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 126
+  fields:
+    name: Acquired HLH
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 127
+  fields:
+    name: Acquired hemaphagocytic lymphohistiocytosis
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 128
+  fields:
+    name: LCH
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 129
+  fields:
+    name: Langerhans cell histiocytosis
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 130
+  fields:
+    name: EG
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 131
+  fields:
+    name: Eosinophilic granuloma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 132
+  fields:
+    name: Systemic LCH
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 133
+  fields:
+    name: Systemic Langerhans cell histiocytosis
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 134
+  fields:
+    name: CGD
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 135
+  fields:
+    name: Chronic granulomatous disease
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 136
+  fields:
+    name: SCID
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 137
+  fields:
+    name: Severe combined immunodeficiency disease
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 138
+  fields:
+    name: CVID
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 139
+  fields:
+    name: Combined variable immunodeficiency disease
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 140
+  fields:
+    name: AA
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 141
+  fields:
+    name: Aplastic anemia
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 142
+  fields:
+    name: FA
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 143
+  fields:
+    name: Fanconi anemia
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 144
+  fields:
+    name: Kostmann syndrome
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 145
+  fields:
+    name: DBA
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 146
+  fields:
+    name: Diamond Blackfan anemia
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 147
+  fields:
+    name: Shwachman-Diamond syndrome
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 148
+  fields:
+    name: Dyskeratosis congenita
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 149
+  fields:
+    name: Amegakaryocytic thrombocytopenia
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 150
+  fields:
+    name: Thrombocytopenia absent radii
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 151
+  fields:
+    name: TAR syndrome
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 152
+  fields:
+    name: PNH
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 153
+  fields:
+    name: Paroxysmal nocturnal hemoglobinuria
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 154
+  fields:
+    name: Cancer predisposition syndrome
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 155
+  fields:
+    name: Li-Fraumenia (p53)
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 156
+  fields:
+    name: APC mutation, Gardner syndrome
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 157
+  fields:
+    name: ITP, acute
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 158
+  fields:
+    name: ITO, persistent
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 159
+  fields:
+    name: ITP, chronic
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 160
+  fields:
+    name: Idiopathic thrombocytopenic purport, acute
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 161
+  fields:
+    name: Idiopathic thrombocytopenic purport, persistent
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 162
+  fields:
+    name: Idiopathic thrombocytopenic purpura, chronic
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 163
+  fields:
+    name: NAIT
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 164
+  fields:
+    name: Neonatal autoimmune thrombocytopenia
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 165
+  fields:
+    name: Hemolytic anemia
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 166
+  fields:
+    name: AIHA
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 167
+  fields:
+    name: Autoimmune hemolytic anemia
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 168
+  fields:
+    name: TTP
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 169
+  fields:
+    name: Thrombotic thrombocytopenic purpura
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 170
+  fields:
+    name: HUS
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 171
+  fields:
+    name: Hemolytic uremic syndrome
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 172
+  fields:
+    name: Sickle cell disease
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 173
+  fields:
+    name: Hemoglobin SS disease
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 174
+  fields:
+    name: Hemoglobin SC disease
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 175
+  fields:
+    name: Thalassemia
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 176
+  fields:
+    name: Factor VIII deficiency
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 177
+  fields:
+    name: Factor 8 deficiency
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 178
+  fields:
+    name: Factor IX deficiency
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 179
+  fields:
+    name: Factor 9 deficiency
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 180
+  fields:
+    name: vWD
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 181
+  fields:
+    name: von Willebrand disease
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 182
+  fields:
+    name: Factor V Leiden mutation
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 183
+  fields:
+    name: PT20210
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 184
+  fields:
+    name: Prothrombin 20210
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 185
+  fields:
+    name: MTHFR (hyperhomocysteine)
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 186
+  fields:
+    name: Protein C deficiency
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 187
+  fields:
+    name: Protein S deficiency
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 188
+  fields:
+    name: ATIII deficiency
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 189
+  fields:
+    name: Antithrombin III deficiency
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 190
+  fields:
+    name: Neutropenia
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 191
+  fields:
+    name: Cyclic neutropenia
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 192
+  fields:
+    name: Autoimmune neutropenia
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 193
+  fields:
+    name: Evan syndrome
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 194
+  fields:
+    name: Desmoid
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 195
+  fields:
+    name: Portal vein thrombosis
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 196
+  fields:
+    name: Liposarcoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 197
+  fields:
+    name: Non-rhabdo soft tissue sarcoma (NRSTS)
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 198
+  fields:
+    name: Venous Thromboembolism
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 199
+  fields:
+    name: Infant ALL
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 200
+  fields:
+    name: Chondroblastic Sarcoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 201
+  fields:
+    name: Mature Cystic Teratoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 202
+  fields:
+    name: Beta Thalassemia
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 203
+  fields:
+    name: Beta Thalassemia Major
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 205
+  fields:
+    name: Hypogammaglobulinemia
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 206
+  fields:
+    name: Intermediate Grade Glial Tumor
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 207
+  fields:
+    name: Anaplastic Medulloblastoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 208
+  fields:
+    name: Retinoblastoma, bilateral
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 209
+  fields:
+    name: Desmoplastic infantile astrocytoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 210
+  fields:
+    name: Diffusely infiltrating astrocytoma
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 211
+  fields:
+    name: Low-grade glial neuronal tumor
+    accepted_status: True
+- model: patients.Diagnosis
+  pk: 212
+  fields:
+    name: Myxopappilary ependymoma
+    accepted_status: True

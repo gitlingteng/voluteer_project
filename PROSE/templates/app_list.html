@@ -1,0 +1,6 @@
+{% load  ifloaded %}
+{% if request.user.is_superuser or not request.user.kidlinkrole.role == None  %}
+	{% ifloaded kidlink %}<li onclick='window.location="{% url kidlink %}"'><h5>KidLink</h5></li>{% endifloaded %}
+{% endif %}
+{% ifloaded messaging %}<li onclick='window.location="{% url inbox %}"'><h5 class="inline">Messaging</h5></li>{% endifloaded %}
+{% ifloaded oncallschedule %}<li onclick='window.location="{% url oncall %}"'><h5 class="inline">On Call Schedule</h5></li>{% endifloaded %}

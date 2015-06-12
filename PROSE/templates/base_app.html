@@ -1,0 +1,46 @@
+{% extends "base_site.html" %}
+
+{% block content %}
+    <div id="notice">{% block notice %}{% endblock %}</div>
+    <div id="menu" class="horizontal-list">
+    	{% block menu %}{% endblock %}
+    </div>
+    <div id="app">
+        {% block app %}{% endblock %}
+    </div>
+{% endblock %}
+
+{% block app-level-extra %}
+	<div id="switch-apps" class="hidden">
+		<ul>
+			{% include "app_list.html" %}
+		</ul>
+	</div>
+    <script>
+		$('#switch-apps :header').each(function(){
+			if($(this).html() == $('#app-selector h1').html()){
+				$(this).parents('li').hide();
+			}
+		});
+		if($('#switch-apps li').length > 0){
+			$('#app-selector h1')
+				.addClass("highlight pointer")
+				.append($('<span>').attr('id','open-app-change').addClass('iconic arrow_down icon-small'));
+		}
+		$('#open-app-change').parent().bind('click', function(){
+			if($('#switch-apps').hasClass('hidden')){
+				$(this).find("span").removeClass('arrow_down').addClass('arrow_up');
+				$('#switch-apps').removeClass('hidden').addClass('position-div');
+				$('#switch-apps').position({
+					'of': $('#app-selector h1'),
+					'my': 'left top',
+					'at': 'left bottom',
+					'collision': 'none none'
+				});
+			}else{
+				$(this).find("span").removeClass('arrow_up').addClass('arrow_down');
+				$('#switch-apps').addClass('hidden').removeClass('position-div');
+			}
+		});
+	</script>
+{% endblock %}

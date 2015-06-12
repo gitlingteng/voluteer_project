@@ -1,0 +1,19 @@
+DEPENDENCIES:
+
+suds python module: https://fedorahosted.org/suds/
+django-revision python module: https://github.com/etianen/django-reversion (sudo easy_install django-reversion)
+python yaml: http://pyyaml.org/wiki/PyYAML
+django-elery: http://pypi.python.org/pypi/django-celery
+RabbitMQ: http://www.rabbitmq.com/download.html
+south: pip install south
+
+DEPLOYMENT:
+1) Change site url in Admin interface to correct domain.
+2) Load fixtures
+3) Add a periodic task to DJCelery Admin
+4) Make sure Rabbit is up
+5) Copy PROSE/etc/celeryd to /etc/default/celeryd
+6) Copy celery init file (https://raw.github.com/ask/celery/1da3aa43d1e6de525beeda398d0acb8841d5b4d2/contrib/generic-init.d/celeryd) to /etc/init.d/celeryd
+6a)Set to executable
+6b)Start celeryd
+7) Run lessc (Less CSS compiler) to get style.css from style.less for faster loads and to work on IE 
